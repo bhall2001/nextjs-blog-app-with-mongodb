@@ -61,7 +61,7 @@ async function addPost(req, res) {
   }
 }
 
-// Updating a post
+// Updating a post here
 async function updatePost(req, res) {
   try {
     let { db } = await connectToDatabase();
